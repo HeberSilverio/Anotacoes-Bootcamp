@@ -1,0 +1,41 @@
+A maneira do script
+Preperations
+Conecte sua conta do GitHub ao prose.io para gerenciar seus projetos.
+Abra a pasta desejada que você deseja excluir.
+Use este script [1]
+O que faz?
+Ele itera sobre os arquivos na pasta atual e os exclui. Quando não há arquivos em uma determinada pasta - o GitHub o remove.
+________________________________________________________________________________________________________________________________
+
+
+var deleteSuccessful = 0, deleteFailed = 0;
+var elements = $('a.delete');
+var totalElements = elements.length;
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function deleteFiles() {
+    for (var i = 0; i < totalElements; i++) {
+        var element = elements[i];
+        var realConfirm = window.confirm;
+        window.confirm = function(){
+            window.confirm = realConfirm;
+            return true;
+        };
+        try {
+            element.click();
+            deleteSuccessful += 1;
+        } catch (error) {
+            deleteFailed += 1;
+        }
+
+        await sleep(1000);
+    }
+
+    console.log("Total items identified: %d\nDeleted: %d\nFailed: %d\n** Operation %s **", 
+        totalElements, deleteSuccessful, deleteFailed, totalElements == deleteSuccessful ? "successful" : "failed");
+}
+
+deleteFiles();
