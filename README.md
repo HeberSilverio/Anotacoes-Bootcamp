@@ -11,3 +11,4 @@ Logo abaixo você encontra as receitas pelo índice.
 Olá ! Bem vindo ao meu livro de receitas :wave:
 
 - Strogonoff de frango
+- Pavê
