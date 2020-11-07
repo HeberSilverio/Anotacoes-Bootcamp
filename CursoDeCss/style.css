@@ -1,42 +1,85 @@
 body {
     background: #d6d7d8;
-}
-
-#title, .subtitle, .post_title {
     color: #212D40;
-}
-
-
-.post {
-    background: #FFF;
-    padding: 20px;
-    
-    margin: 50px;
-    display: flex;
-    
-}
-.post_title {
-    font-size: 16px;
-    font-style: bold;
-    margin: 0;
-    margin-bottom: 15px;
-    
-}
-.post-content {
-    margin: 0;
-    margin-bottom: 15px;
+    max-width: 800px;
+    margin: auto;
 }
 
 .menu {
-    position: relative;
-    background: #f5f5f5;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 50px;
     display: flex;
+    background: #f5f5f5;
+    padding:0px;
+    border-radius: 15px; 
+    border: 1px solid #000;
+    margin: 20px 0px 20px 0px;
+    justify-content: center;
+    align-items: center;
+    font-tra
 }
 
-.menu-nav {
+ul {
+  
+ display: flex;
+ 
+ align-items: center;
+ justify-content: center;
+   
+}
+ul li {
+    position: relative;
+    list-style: none;
+    width: 120px;
+    
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.noticias {
+    display: flex;
+    border: 2px solid pink;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    background: #FFF;
+    padding: 30px;
+    margin: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    
+}
+.article_title {
+    display: flex;
+    font-size: 20px;
+    font-style: bold;
+    margin: 0;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    color: blue;
     
 }
 
+
+
+footer {
+    margin: 20px 0px 20px 0px;
+}
+.logo {
+    height: 50px;
+    
+
+}
+
+p {
+    text-align: justify;
+}
