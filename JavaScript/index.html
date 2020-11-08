@@ -7,8 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-   <button type="button" onclick="clicou()">Clique aqui</button>
-   <h1 id="agradecer" onclick="redirecionar()"></h1>
-   <p>Do officia esse eu nisi laboris. Dolore tempor nisi duis ipsum deserunt nisi labore cillum aliqua excepteur qui. Consectetur officia <b>pariatur</b> excepteur magna consequat laboris laboris mollit ea aute amet. Anim elit consequat ex consectetur excepteur occaecat duis duis eu culpa officia velit laborum veniam.</p>
+   <button type="button" onclick="redirecionar()">Clique aqui</button>
+   <p  onclick="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+   <p  onclick="trocar(this)" onmouseout="voltar(this)">use o seu mouse aqui</p>
+   <p></p>
+   <select onchange="funcaoChange(this)">
+       <option value="1">Valor 1</option>
+       <option value="2">Valor 2</option>
+       <option value="3">Valor 3</option>
+   </select>
 </body>
 </html>

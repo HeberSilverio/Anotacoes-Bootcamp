@@ -7,9 +7,20 @@ function redirecionar(){
     window.open("https://metodoafd.com.br");
     window.location.href = "https://google.com"
 }
+function trocar(elemento){
+    elemento.innerHTML = "obrigado por passar o mouse";
+    //document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse";
+}
 
-/*
-function soma(n1, n2) {
+function voltar(elemento) {
+   elemento.innerHTML = "Use o mouse aqui";
+    // document.getElementById("mousemove").innerHTML = "precisa clicar";
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value); }
+
+/*function soma(n1, n2) {
     return n1 + n2
 }
 console.log(soma(3, 2));
