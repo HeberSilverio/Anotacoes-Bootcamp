@@ -18,7 +18,7 @@ var o2 = false || true;     // f || t retorna true
 var o3 = true || false;     // t || f retorna true
 var o4 = false || (3 == 4); // f || f retorna false
 var o5 = "Gato" || "Cão";   // t || t retorna gato
-var o6 = false || "Gato";   // f || t retorna gato
+var o6 = false || "Gato";   // f || t retorna gato 
 var o7 = "Gato" || false;   // t || f retorna gato
 
 // NOT lógico (!) - basicamente nega a condição
@@ -26,4 +26,16 @@ var o7 = "Gato" || false;   // t || f retorna gato
 
 var n1 = !true;     //!t retorna false
 var n2 = !false;    //!f retorna true
-var n3 = !"Gato";
+var n3 = !"Gato";   //!f retorna false //string preenchida com valor ela é verdadeira, por negar true deu false
+
+// True
+" " //string preenchida
+1
+['teste']
+
+// False
+""
+0
+[]
+
+!! //é uma conversão para boolean
