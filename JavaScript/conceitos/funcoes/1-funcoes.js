@@ -6,7 +6,7 @@ function logFn(fn) { //função logFn recebe uma função por parâmetro
     console.log(fn()); //aplica um console.log no que esta função fn retornar
     // return fn()); - eu poderia também retornar a execução
     // return fn(); - ou até retornar apenas a argumentação da função.
-
+}
 const logFnRsult = logFn; //atribuir com uma variável
 
 const objeto = { //atribuir por um objeto
