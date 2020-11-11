@@ -27,15 +27,15 @@ var o7 = "Gato" || false;   // t || f retorna gato
 var n1 = !true;     //!t retorna false
 var n2 = !false;    //!f retorna true
 var n3 = !"Gato";   //!f retorna false //string preenchida com valor ela é verdadeira, por negar true deu false
-
-// True
+/*
+ True
 " " //string preenchida
 1
 ['teste']
 
-// False
+ False
 ""
 0
 []
-
-!! //é uma conversão para boolean
+*/
+// !! //duas exclamação é uma conversão para boolean
