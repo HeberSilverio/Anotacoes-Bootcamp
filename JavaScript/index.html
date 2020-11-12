@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../JavaScript/operadores/spread-operator/1-spread.js"></script>
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Processamento único</title>
+    <link rel="stylesheet" href="css/sytle.css">
 </head>
 <body>
-   <button type="button" onclick="redirecionar()">Clique aqui</button>
-   
-   <p></p>
-   <select onchange="funcaoChange(this)">
-       <option value="1">Valor 1</option>
-       <option value="2">Valor 2</option>
-       <option value="3">Valor 3</option>
-   </select>
+  <!--  <img src="./imagens/giphy.gif" alt="iron man gif">
+   <button id="btn-js">Clique aqui</button> -->
+   <h2 class="title">Título da página</h2> 
+
+    <script>
+     setTimeout(function() {
+        document.querySelector('.title').classList.add('animate');
+     }, 1)   
+    </script>
+
 </body>
 </html>
