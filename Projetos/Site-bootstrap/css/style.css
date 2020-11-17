@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    
+    color: #2b2b2b;
+    min-width: 100%;
+    letter-spacing: 0;
+    word-break: break-word;
+}
+
+html, body, div, span, input, textarea, a, button, select {
+    font-family: 'StrongSword_Pure', customKR;
+    
+}
+
+.gt_visual_wrap .txt_set, .gt_visual_wrap .btn_lab.blue {
+    color: #FFF;
+    line-height: 1.4;
+    
+}
+
+
+.gt_visual_wrap {
+    
+    height: 30.8333rem;
+    margin-top: 0;
+    min-width: 100%;
+    background: url(../imagens/bg_menina.jpg) no-repeat top center; 
+    background-position: 80% 0;
+    
+    background-size: cover;
+ 
+}
+
+.gt_visual_wrap .txt_set .title {
+    margin-bottom: 10px;
+    font-size: 46px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.container{
+    padding-top:50px;
+    margin-bottom: 50px;
+}
+.txt_set{
+    padding-top:80px;
+}
+
+.botao{
+    
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 249px;
+    height: 72px;
+    margin-top: 8px;
+    padding: 5px 5px;
+    margin-right: 12px;
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #acacac;
+    background: linear-gradient(to bottom, #ededed, #bdbdbd);
+    box-sizing: border-box;
+}
+.gt_visual_wrap .botao.blue{
+    flex: 0 0 100%;
+    background: linear-gradient(to bottom, #6985cf, #465385);
+    border-color: #5a70ac;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    
+    line-height: 1.4;
+    width: 510px;
+    
+} 
+.botao:hover{
+    opacity: .7;
+    color: #fff;
+    background: #aaa;
+}
+
+section {
+    display: block;
+    position: relative;
+}
+
+.games{
+   
+    height: 30.8333rem;
+    margin-top: 0px;
+    min-width: 100%;
+    background: url(../imagens/m_main_join_us.jpg) no-repeat top center; 
+    background-position: 80% 0;
+    background-size: cover;
+}
+.footer{  
+    height: 50px;
+    margin-top: 30px;
+    min-width: 100%;
+    background: #000; 
+    
+}
+
+.footer p{
+    color: #fff;
+}

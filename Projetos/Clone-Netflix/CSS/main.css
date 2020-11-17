@@ -1,0 +1,110 @@
+:root{
+    --vermelha: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--preta);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+header .logo{
+    color: var(--vermelha);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../imagens/houseOfCards-5-capa.jpg);
+    background-size:cover;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  flex-start;
+}
+
+.container .descricao{
+    margin-bottom: 4%;
+}
+
+.filme-principal .titulo{
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #FFF;
+    padding: 6px 30px;
+    margin-right: 12px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao:nth-child(1){
+    background-color: #FFF;
+    color: #000;
+} 
+.botao:hover{
+    opacity: .7;
+    color: #fff;
+    background: #aaa;
+}
+.botao i{
+    margin-right: 4px;
+}
+
+.container{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.filme-principal .container{
+    width: 70%;
+}
+.box-filme{
+   height: 100%; 
+   width: 80%;
+   display: block;
+   max-height: 100vh;
+}
+
+.carrosel-filmes{
+    margin-top: 20px;
+}

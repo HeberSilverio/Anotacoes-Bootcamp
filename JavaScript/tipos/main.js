@@ -1,4 +1,4 @@
-function clicou(){
+/*function clicou(){
     document.getElementById("agradecer").innerHTML = "Obrigado por clicar";
     console.log(document.getElementById("agradecer"));
 };
@@ -19,7 +19,7 @@ function voltar(elemento) {
 
 function funcaoChange(elemento){
     console.log(elemento.value); }
-
+*/
 /*function soma(n1, n2) {
     return n1 + n2
 }
@@ -94,3 +94,18 @@ for(mes = data.getMonth(); mes < 20; mes++) {
 
 //console.log(data.getMonth()+1);
 //console.log(24 - data.getHours());*/
+
+
+var j=0, msg="";
+while (j<=10){
+     if(j ==10){
+       msg +=j;
+       break;
+     }
+     if(j%2 !=0){
+       msg += "";
+     }
+    msg += j + ",";
+    j++;
+  };
+console.log(msg);
