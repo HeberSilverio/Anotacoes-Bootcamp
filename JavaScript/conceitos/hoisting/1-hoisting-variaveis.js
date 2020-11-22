@@ -1,13 +1,23 @@
 //Hoisting deve ser um dos motivos de ter o escopo de bloco como o let e const. 
 //Hoisting significa levantar ou suspender algo. 
 //Basicamente as declarações tanto de variáveis como de funções são elevadas ao escopo que ela se encontra (de bloco, função ou global).
+
+// Outra explicação. Hoisting é uma característica de funções com variáveis declaradas por var serem levantadas ao topo, e neste caso você pode invocar esta função antes mesmo de definí-la:
+/*
+log('teste');
+function log(value) {
+    console.log(value)
+};
+*/
+//essa característica de hoisting não funciona em arrow function
+
 //Podemos separar o hoisting em dois tipos:
 //- variáveis -> neste caso só eleva a criação da variável, e não a sua atribuição.
 //- funções -> neste caso é elevada ao topo como um todo, então você terá até a assinatura dela.
 
 
 
-
+/*
 function fn() { //função fn
     console.log(text);//faz console.log de text uma variável que ainda não foi declarada e será declarada logo abaixo. Em outras linguagens você receberia um tipo de erro informando que esta variável não existe ainda.
 
@@ -17,6 +27,8 @@ function fn() { //função fn
 }
 
 fn();
+*/
+
 //neste caso ele vai subir(içar) a declaração, e não vai retornar erro, apenas um undefined, dizendo que esta variável existe só que não foi definida ainda. E depois de declarada é retornado o valor exemplo.
 
 /*
