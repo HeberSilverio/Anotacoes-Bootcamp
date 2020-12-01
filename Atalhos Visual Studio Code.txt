@@ -1,0 +1,5 @@
+Atalhos Visual Studio Code
+
+Ctrl + k + C - comenta o conteúdo selecionado
+Ctrl + ; - comenta o conteúdo selecionado
+Ctrl + ; - se o conteúdo selecionado estiver comentado retira o comentario
