@@ -1,0 +1,2 @@
+Configurando o ambiente
+https://www.notion.so/Configurando-o-ambiente-953aad022cda4fbcb149be2bfe793995 - baixar ou atualizar node + NPM; Yarn; Expo VSCode

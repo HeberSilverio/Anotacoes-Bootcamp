@@ -1,0 +1,2 @@
+resize - redimensionar
+https://material.io/resources/resizer/

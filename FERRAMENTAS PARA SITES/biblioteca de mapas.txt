@@ -1,0 +1,11 @@
+biblioteca de mapas
+
+https://www.leafletjs.com - é o mapa dentro do JavaScript tradicional
+
+https://www.react-leaflet.js.org - integração do leaflet dentro do React. Para instalar na aplicação  'yarn add leaflet react-leaflet'
+
+https://www.openstreetmap.org/ - forne a imagem do mapa, o nome da rua etc...  esta é a url para o Tile: <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+
+
+----------------------------------------------------------------------------------------------------------------------------
+Outra API de mapas é o www.mapbox.com - também é gratuita

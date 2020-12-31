@@ -1,0 +1,23 @@
+Informações Complementares
+Só mais algumas informações! :)
+LinkedIn:
+Exemplo: https://www.linkedin.com/in/...
+GitHub:
+Se não tiver, basta pular esta pergunta.
+Facebook:
+Se não tiver, basta pular esta pergunta.
+Behance:
+Se não tiver, basta pular esta pergunta.
+Dribbblle:
+Se não tiver, basta pular esta pergunta.
+
+Plugins para loja virtual
+WooCommerce
+Brazilian Market on WooCommerce
+Correios for WooCommerce
+PagSeguro for WooCommerce
+
+perfect wooCommerce Brands
+YITH WooCommerce Wishlist
+/** Variation Swatches for WooCommerce **/
+WooCommerce Cart Abandonment Recovery

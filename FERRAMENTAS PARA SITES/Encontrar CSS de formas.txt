@@ -1,0 +1,5 @@
+Encontrar CSS de formas
+
+pesquisar no google: "css clip path maker"
+Site:
+https://bennettfeely.com/clippy/

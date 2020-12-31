@@ -1,0 +1,32 @@
+Sempre que sugerem que desenvolvimento Front-end é simples, lembro que precisamos dominar:
+
+- HTML: Semântica, Tags, SEO, Acessibilidade
+- CSS: Propriedades, Seletores, Layouts, Grids, etc
+- JS: Manipulação de DOM, Fetch API, ES6+, Modularização, Hoisting, Scope, Prototype, etc
+
+Saber trabalhar com:
+
+- Frameworks e libs JS: React, Vue, Angular, Svelte, Redux, RxJS, Vuex, Next, Gatsby, Axios, etc
+- Tipagem estática: TypeScript, ReasonML, etc
+- Processadores CSS: Styled Components, PostCSS, Sass, CSS Modules, etc
+- Frameworks CSS: Tailwind, Material
+
+Além de:
+
+- Testes: Jest, Testing Library, Cypress, etc
+- Package Managers: NPM, Yarn
+- Module bundlers: Webpack, Rollup
+- Task Runners: NPM Scripts, Gulp
+- PWA: Web Sockets, Service Workers, Storages
+
+E ainda:
+
+- Design Systems, SSR, SSG, GraphQL, Aplicações Mobile, Micro-Frontends, Node, etc
+
+Aprimorando a importantíssima habilidade de entender o projeto e saber escolher qual dessas tecnologias utilizar em cada aplicação (evitando assim over-engineering).
+
+E também se preocupar com:
+
+- Performance, escalabilidade, UI/UX, convenções e boas práticas, legibilidade do código, regras de negócio, aprimorar soft skills, code reviews, CI/CD, Git flow...
+
+Garantindo que tudo funcione em diferentes resoluções, dispositivos e navegadores

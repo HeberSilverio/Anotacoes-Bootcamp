@@ -1,0 +1,12 @@
+
+CHROME
+https://www.google.com/chrome/?standalone=1
+
+Visual Studio Code
+code.visualstudio.com
+
+GIT
+git-scm.com
+
+GitHub Desktop
+https://desktop.github.com/

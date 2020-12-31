@@ -1,0 +1,10 @@
+para react native
+
+expo.io - features para mobile pré configuradas
+
+docs.expo.io - documentação
+
+expo.canny.io - roadmap e feature requests
+
+
+expo google fonts - github.com/expo/google-fonts

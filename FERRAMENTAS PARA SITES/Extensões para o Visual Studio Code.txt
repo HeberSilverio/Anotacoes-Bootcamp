@@ -1,0 +1,25 @@
+Extensões para o Visual Studio Code
+
+Live Server (Criar um servidor local com Live Reload)
+Dracula official theme
+Code Spell checker
+Portuguese - Code Spell checker (ativar portugues em Show spell checker configuration info)
+Bracket Pair Colorizer
+Auto rename tag
+bookmarks (adiciona marcadores alt + windows + k ;->alt + windows + j/l)  
+gitlens
+Rest Client (visualizar o back
+Settings Sync
+
+
+HeberSilverio / cloudSettings 
+Sincronização: A Transferência Concluída. ESSÊNCIA ID: 81218a7484e5e142d74087ab16fc8c65. Por favor, copiar e utilizar este ID de outras máquinas para transferir definições.
+
+Não colocadas
+Live Share (Compartilhar a sessão do seu VS Code para fazer pair programming remotamente.
+Color Highlight: (Detectar e destacar cores em Hexadecimal ou RGB encontradas nos documentos.)
+EditorConfig for VS Code: (ler automaticamente arquivos .editorconfig.)
+Advanced New File: (Conseguir criar novos arquivos e pastas sem tirar a mão do teclado.)
+Jumpy: (para navegar dentro do arquivo de forma rápida, lembrando muito o Vim.)
+VSCode Vim: (Simular o modo de uso do Vim dentro do VS Code.)
+
