@@ -1,0 +1,5 @@
+KeyCode - interceptação de teclas
+http://keycode.info/
+
+Mostra qual tecla foi pressionada interceptando código dela.
+Por exemplo a tecla espaço tem o código 32.
