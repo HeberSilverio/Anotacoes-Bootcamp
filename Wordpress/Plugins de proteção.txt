@@ -1,0 +1,4 @@
+Plugins de proteção para o site:
+
+- Wordfence Security - Firewall & Malware Scan
+- NinjaFirewall (wp Edition) - Advanced Security

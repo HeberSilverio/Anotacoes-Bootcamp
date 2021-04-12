@@ -1,0 +1,11 @@
+Este site gera o código dos botões de compartilhamento
+https://sharethis.com/pt/onboarding/
+
+
+Aqui está o seu código personalizado, ele deve ser colocado no <head>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=606c7e90ae08f90011442c87&product=inline-share-buttons" async="async"></script>
+
+
+
+Copie e cole este código de colocação onde você quiser. botões inline share para aparecer no seu site.
+<div class="sharethis-inline-share-buttons"></div>

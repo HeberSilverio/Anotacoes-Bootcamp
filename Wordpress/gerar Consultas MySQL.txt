@@ -1,0 +1,4 @@
+Consultas SQL para alterar o domínio do site WordPress
+Ao mover sites WordPress de um domínio para outro, essa ferramenta economiza muito tempo. Basta gerar as consultas e executá-las no MySQL.
+
+https://rudrastyh.com/sql-queries-to-change-wordpress-website-domain
